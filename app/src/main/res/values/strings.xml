@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tarea activities</string>
+    <string name="nombre">Ejemplo Ejemplo Ejemplo</string>
+    <string name="telefono">55-22-32-56</string>
+    <string name="email">ejemplo@ejemplo</string>
+    <string name="date">20/20/20</string>
+    <string name="descripcion">Descripción de ejemplo</string>
+</resources>
