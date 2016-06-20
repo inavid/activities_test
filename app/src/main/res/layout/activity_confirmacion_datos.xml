@@ -70,7 +70,7 @@
         android:text="@string/descripcion" />
 
     <Button
-        android:id="@+id/btnEjemplo"
+        android:id="@+id/btnEdicion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Editar Datos"
