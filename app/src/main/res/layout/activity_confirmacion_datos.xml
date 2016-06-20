@@ -16,24 +16,65 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:textSize="@dimen/nombre"
-        android:text="@string/nombre" />
+        android:text="@string/nombre"
+        android:layout_marginBottom="15px"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10px">
+
+        <TextView
+            android:id="@+id/tvFechaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="@dimen/fecha"
+            android:text="Fecha de nacimiento: " />
+        <TextView
+            android:id="@+id/tvFechab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="@dimen/fecha"
+            android:text="@string/date" />
+
+    </LinearLayout>
+
 
     <TextView
         android:id="@+id/tvTelefono"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/telefono" />
+        android:text="@string/telefono"
+        android:textStyle="italic"
+        android:textSize="@dimen/fecha"
+        android:layout_marginBottom="10px"/>
 
     <TextView
         android:id="@+id/tvEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/email" />
+        android:text="@string/email"
+        android:textStyle="italic"
+        android:textSize="@dimen/fecha"
+        android:layout_marginBottom="10px"/>
 
     <TextView
         android:id="@+id/tvDescripcion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="@dimen/fecha"
         android:text="@string/descripcion" />
+
+    <Button
+        android:id="@+id/btnEjemplo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Editar Datos"
+        android:layout_marginTop="20px"
+        android:theme="@style/PrincipalRaisedButton" />
 
 </LinearLayout>
