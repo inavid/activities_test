@@ -15,6 +15,7 @@
         android:layout_height="wrap_content">
 
         <android.support.design.widget.TextInputEditText
+            android:id="@+id/tietNombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/nombre"/>
@@ -40,6 +41,7 @@
         android:layout_height="wrap_content">
 
         <android.support.design.widget.TextInputEditText
+            android:id="@+id/tietTelefono"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/telefono"/>
@@ -51,6 +53,7 @@
         android:layout_height="wrap_content">
 
         <android.support.design.widget.TextInputEditText
+            android:id="@+id/tietEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/email"/>
@@ -62,6 +65,7 @@
         android:layout_height="wrap_content">
 
         <android.support.design.widget.TextInputEditText
+            android:id="@+id/tietDescripcion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/descripcion"/>
